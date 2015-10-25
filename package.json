@@ -16,15 +16,26 @@
   ],
   "devDependencies": {
     "babelify": "^6.0.2",
+    "bootstrap-sass": "^3.3.5",
     "browserify": "^10.0.0",
+    "del": "^2.0.2",
     "gulp": "^3.8.11",
+    "gulp-compass": "^2.1.0",
+    "gulp-htmlclean": "^2.6.4",
     "gulp-load-plugins": "^1.0.0",
+    "gulp-newer": "^0.5.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-pleeease": "^2.0.1",
+    "gulp-preprocess": "^1.2.0",
+    "gulp-size": "^2.0.0",
     "gulp-uglify": "^1.4.2",
+    "node-sass": "^3.4.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
     "babel": "^5.2.6",
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "font-awesome": "^4.4.0"
   }
 }
