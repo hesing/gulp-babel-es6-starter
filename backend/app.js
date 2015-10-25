@@ -3,7 +3,7 @@ var express = require("express"),
 	port = process.env.PORT || 5000;
 var iso = require('../portable')
 
-app.use(express.static("dist"));
+app.use(express.static("build"));
 
 app.listen(port, function(){
 	console.log("browse http://localhost:5000/")
